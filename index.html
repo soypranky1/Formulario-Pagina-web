@@ -1,0 +1,102 @@
+<!--Alumno: Jose Francisco Chan de la Cruz
+Matricula: 240300844-->
+
+<!--Inputs Formularios en HTML, y JS ACTIVIDAD 2-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Legado matematico</title>
+
+<!--vincular css-->
+    <link rel="stylesheet" href="estilos.css">
+
+<!--Icono de la pagina -->
+    <link rel="icon" type="image/png" href="IMG/Icono.png"/>
+</head>
+<body>
+
+<!--Encabezado-->    
+<header>
+        <h1>Legado Matemático</h1>
+        <p>Educación matemática clara y accesible</p>
+</header>
+
+ <!--Formulario inicio de sesión-->
+<section id="login" class="login">
+<h2>Formulario de registro</h2>
+
+<form id="formulario">
+
+    <label>Nombre completo:</label>
+    <input type="text" id="nombre">
+
+    <label>Correo electrónico:</label>
+    <input type="email" id="correo">
+
+    <label>Edad:</label>
+    <input type="number" id="edad">
+
+    <label>Fecha de Nacimiento:</label>
+    <input type="date" id="fecha">
+
+    <label>Contraseña:</label>
+    <input type="password" id="password">
+
+    <label for="confirmPassword">Confirmar Contraseña:</label>
+    <input type="password" id="confirmPassword" name="confirmPass" required />
+
+    <button type="button" onclick="validarFormulario()">Enviar</button>
+
+</form>
+</section>
+
+<!-- CONTENIDO OCULTO -->
+<div id="contenido" style="display:none;">
+
+<!--Contenido Principal-->
+<section>
+        <h2>¿Qué es Legado Matemático?</h2>
+        <p>
+            Plataforma educativa enfocada en el aprendizaje
+            de los principios matemáticos fundamentales.
+        </p>
+    </section>
+
+    <section>
+        <h2>Áreas de estudio</h2>
+        <ul>
+            <li>Aritmética</li>
+            <li>Álgebra</li>
+            <li>Geometría</li>
+            <li>Trigonometría</li>
+            <li>Cálculo</li>
+            <li>Diferencial</li>
+            <li>Integral</li>
+        </ul>
+    </section>
+
+ <section>
+        <h2>Recursos</h2>
+        <img src="IMG/IMAGEN 2.jpg" height="300">
+
+        <br><br>
+
+        <a href="https://www.youtube.com/watch?v=6Ip4-_7zky4&list=PL7LYbhP3ODmM1YNDXAzE66toxUkT-Crg4" target="_blank">
+            Ver video matemático
+        </a>
+    </section>
+
+
+<footer>
+    <p>1/02/2026-actividad 2</p>
+</footer>
+
+</div>
+
+<!-- JS -->
+    <script src="validaciones.js"></script>
+</body>
+</html>
+
