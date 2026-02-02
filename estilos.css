@@ -38,7 +38,7 @@ form {
     width: 80%;
     max-width: 420px;
     border-radius: 20px;
-    box-shadow: 0 0 25px rgba(5, 111, 241, 0.6);
+    box-shadow: 0 0 25px rgba(1, 113, 249, 0.6);
 
 }
 /* CAMPOS */
@@ -93,4 +93,5 @@ ul {
 img {
     display: block;
     margin: 20px auto;
+
 }
